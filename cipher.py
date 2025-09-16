@@ -56,7 +56,7 @@ def result(txt_file,mode):                                                      
 
 def get_input():
 
-    txt_file = input("file name: ")                                                         # ask user input for txt file
+    txt_file = input("file name: ")                                                         # ask user input for txt file path i.e, full path to txt file
 
     with open(txt_file, "r") as file:                                                   
         content = file.read()                                                               # read the text file and store to content
